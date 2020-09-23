@@ -18,7 +18,7 @@ The Models I tested were:
 * Voting Classifier
 * XGBoost
 
-My best model was XGBoost which had an F1 (weighted) score of .872 and an Accuracy score of .881. These scores were significantly higher than the scores I got with the other models. 
+My best model was XGBoost which had an F1 (weighted) score of .872 and an Accuracy score of .881. These scores were significantly higher than the scores I got with the other models. The most important features in the model were 'Years in College', 'Undersized', and 'FG%'. The model favored players that spent fewer years in college, were not undersized and had a higher FG%.
 
 ## Model Evaluation
 In addition to observing a high F1 and Accuracy score, I wanted to evaluate the XGBoost model by using it to predict on a draft class. Since my dataset only had players that were drafted in 2017 and before, I used the 2018 NBA Draft class to evaluate my model.
