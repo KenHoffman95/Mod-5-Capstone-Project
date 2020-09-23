@@ -18,7 +18,7 @@ The Models I tested were:
 * Voting Classifier
 * XGBoost
 
-My best model was XGBoost which had an F1 (weighted) score of .872 and an Accuracy score of .881. These scores were significantly higher than the scores I got for the other models. 
+My best model was XGBoost which had an F1 (weighted) score of .872 and an Accuracy score of .881. These scores were significantly higher than the scores I got with the other models. 
 
 
 
