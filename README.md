@@ -22,10 +22,13 @@ My best model was XGBoost which had an F1 (weighted) score of .872 and an Accura
 
 ## Model Evaluation
 In addition to observing a high F1 and Accuracy score, I wanted to evaluate the XGBoost model by using it to predict on a draft class. Since my dataset only had players that were drafted in 2017 and before, I used the 2018 NBA Draft class to evaluate my model.
+
 * All-Star - Trae Young and Shai Gilgeous-Alexander
 * Starter  - DeAndre Ayton, Mo Bamba, Jalen Brunson, Aaron Holiday and Gary Trent Jr. 
 * Role Player - Mikal Bridges, Keita Bates-Diop, Kevin Huerter, Bruce Brown, Tony Brown, Devonte' Graham, Kevin Knox, Donte DiVincenzo, Jevon Carter, Jerome Robinson, Josh Okogie, Zhaire Smith, Mo Wagner, Omari Spellman, Lonnie Walker, Khyri Thomas, Sviatoslav Mykhailiuk, Chimezie Metu, De'Anthony Melton, Chandler Hutchison, Thomas Welsh and Robert Williams
 * Bust - Grayson Allen, Miles Bridges, Kostas Antetokounmpo, Landry Shamet, Collin Sexton, Jaron Blossomgame, Vince Edwards, Hamidou Diallo, Jacob Evans, Alize Johnson, Frank Jackson, Melvin Frazier, George King, Jarred Vanderbilt and Jonah Bolden 
+
+I was satisfied with the predictions that my model produced for the 2018 NBA Draft class. Although it usually takes at least three seasons for NBA players to reach their full potential, I thought that the majority of classifications given to the players were accurate based on the levels that they're currently playing. The only predictions that were noticeably inaccurate were the classifications of Landry Shamet and Collin Sexton as Busts. Based on their first two seasons in the NBA, my model would've ideally classified them as Starters. 
 
 ## Next Steps
 * Apply model to 2020 Draft Class
