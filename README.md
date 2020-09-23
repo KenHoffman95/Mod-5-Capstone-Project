@@ -35,5 +35,8 @@ I was satisfied with the predictions that my model produced for the 2018 NBA Dra
 * Include draft combine measurements in data
 * Create model to predict how basketball players from foreign leagues will perform in the NBA
 
+## Presentation
+https://docs.google.com/presentation/d/1KQHi55iG6syKPLgX_9aHa_oR1w6M07tKeVrQ-Zmvpjc/edit#slide=id.p
+
 
 
