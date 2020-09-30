@@ -7,7 +7,7 @@ Whether they've finished in last place or just won the title, NBA teams are alwa
 Create a a model that can accurately predict how rookies will perform as NBA players by classifying them into one of four categories: Bust, Role Player, Starter and All-Star. 
 
 ## Dataset
-In order to create a model that can accurately predict how rookies will perform as NBA players, I webscraped NBA statistics, College statistics (final year) and additional information from https://www.basketball-reference.com/ and https://www.sports-reference.com/cbb/  for 1,013 NBA players dating back to 1980. I used Number of All Star appearances, PER (Player Efficiency Rating) per Season and NBA Tenure in order to classify the players in the dataset into the one of four categories.  
+In order to create a model that can accurately predict how rookies will perform as NBA players, I webscraped NBA statistics, College statistics (final year) and additional information from https://www.basketball-reference.com/ and https://www.sports-reference.com/cbb/  for 1,013 NBA players dating back to 1980. I used Number of All Star appearances, PER (Player Efficiency Rating) per Season and NBA Tenure in order to classify the players in the dataset into the one of four categories. As a result, there were 304 players classified as "Bust", 375 classified as "Role Player", 254 classified as "Starter" and 80 classified as "All-Star". 
 
 ## Process & Repository Contents
 * ***Webscraping:*** webscraping data from www.basketball-reference.com and www.sports-reference.com/cbb 
@@ -26,10 +26,10 @@ The Models I tested were:
 * Voting Classifier
 * XGBoost
 
-My best model was XGBoost which had an F1 (weighted) score of .872 and an Accuracy score of .881. These scores were significantly higher than the scores I got with the other models. The most important features in the model were 'Years in College', 'Undersized', and 'FG%'. The model favored players that spent fewer years in college, were not undersized and had a higher FG%.
+Because I had to account for class imbalance and wanted to minimize the amount of false positives that my model outputs, I used F1 (weighted) score and Precision score respectively to evaluate my models. My best model was XGBoost which had an F1 (weighted) score of .902 and a Precision Score of .914. These scores were significantly higher than the scores I got with the other models. The most important features in the model were 'Years in College', 'Undersized', and 'FG%'. The model favored players that spent fewer years in college, were not undersized and had a higher FG%.
 
 ## Model Evaluation
-In addition to observing a high F1 and Accuracy score, I wanted to evaluate the XGBoost model by using it to predict on a draft class. Since my dataset only had players that were drafted in 2017 and before, I used the 2018 NBA Draft class to evaluate my model.
+In addition to observing a high F1 and Precision score, I wanted to evaluate the XGBoost model by using it to predict on a draft class. Since my dataset only had players that were drafted in 2017 and before, I used the 2018 NBA Draft class to evaluate my model.
 
 * All-Star - Trae Young and Shai Gilgeous-Alexander
 * Starter  - DeAndre Ayton, Mo Bamba, Jalen Brunson, Aaron Holiday and Gary Trent Jr. 
