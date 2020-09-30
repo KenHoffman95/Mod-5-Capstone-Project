@@ -9,6 +9,11 @@ Create a a model that can accurately predict how rookies will perform as NBA pla
 ## Dataset
 In order to create a model that can accurately predict how rookies will perform as NBA players, I webscraped NBA statistics, College statistics (final year) and additional information from https://www.basketball-reference.com/ and https://www.sports-reference.com/cbb/  for 1,013 NBA players dating back to 1980. I used Number of All Star appearances, PER (Player Efficiency Rating) per Season and NBA Tenure in order to classify the players in the dataset into the one of four categories.  
 
+## Process & Repository Contents
+* ***Webscraping:*** webscraping data from www.basketball-reference.com and www.sports-reference.com/cbb 
+* ***Data Cleanning and Feature Engineering:*** cleaning data and engineering new features in preparation for modeling
+* ***EDA, Modeling and Evaluation:*** Analysis of the data through visualizaitons to gain better understanding. Building models and determining which one is the best.  
+
 ## Modeling
 The Models I tested were:
 * KNN
