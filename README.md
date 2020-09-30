@@ -13,6 +13,7 @@ In order to create a model that can accurately predict how rookies will perform 
 * ***Webscraping:*** webscraping data from www.basketball-reference.com and www.sports-reference.com/cbb 
   * [NBA and NCAA Stats Scraping.ipynb](https://github.com/KenHoffman95/Mod-5-Capstone-Project/blob/master/NBA%20and%20NCAA%20Stats%20Scraping.ipynb)
 * ***Data Cleanning and Feature Engineering:*** cleaning data and engineering new features in preparation for modeling
+  * [Data (https://github.com/KenHoffman95/Mod-5-Capstone-Project/blob/master/Data%20Cleaning%20and%20Feature%20Engineering.ipynb)
 * ***EDA, Modeling and Evaluation:*** Analysis of the data through visualizaitons to gain better understanding. Building models and determining which one is the best.  
 
 ## Modeling
