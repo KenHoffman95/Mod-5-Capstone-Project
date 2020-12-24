@@ -39,7 +39,6 @@ In addition to observing a high F1 and Precision score, I wanted to evaluate the
 I was satisfied with the predictions that my model produced for the 2018 NBA Draft class. Although it usually takes at least three seasons for NBA players to reach their full potential, I thought that the majority of classifications given to the players were accurate based on the levels that they're currently playing. The only predictions that were noticeably inaccurate were the classifications of Landry Shamet and Collin Sexton as Busts. Based on their first two seasons in the NBA, my model would've ideally classified them as Starters. 
 
 ## Next Steps
-* Apply model to 2020 Draft Class
 * Include draft combine measurements in data
 * Create model to predict how basketball players from foreign leagues will perform in the NBA
 
