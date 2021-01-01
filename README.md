@@ -38,6 +38,13 @@ In addition to observing a high F1 and Precision score, I wanted to evaluate the
 
 I was satisfied with the predictions that my model produced for the 2018 NBA Draft class. Although it usually takes at least three seasons for NBA players to reach their full potential, I thought that the majority of classifications given to the players were accurate based on the levels that they're currently playing. The only predictions that were noticeably inaccurate were the classifications of Landry Shamet and Collin Sexton as Busts. Based on their first two seasons in the NBA, my model would've ideally classified them as Starters. 
 
+## 2020 Draft Class Projections
+
+* All-Star - None
+* Starter - James Wiseman, Onyeka Okongwu, Obi Toppin, Tyrese Haliburton, Kira Lewis Jr., Precious Achiuwa, Zeke Nnaji, Payton Pritchard, Vernon Carey Jr., Daniel Otoru, Xavier Tillman, Tyler Bey, Saben Lee, Nick Richards and Cassius Winston
+* Role Player - Anthony Edwards, Jalen Smith, Devin Vassell, Cole Anthony, Isaiah Stewart, Josh Green, Saddiq Bey, Udoka Azubuike, Jaden McDaniels, Desmond Bane, Elijah Hughes, Robert Woodard, Tre Jones, CJ Elleby, Skylar Mays, Cassius Stanley, Grant Riller, Reggie Perry, Paul Reed, Jalen Harris and Sam Merrill 
+* Bust - Patrick Williams, Isaac Okoro, Aaron Nesmith, Tyrese Maxey, Immanuel Quickley, Malachi Flynn, Tyrell Terry, Jahmi'us Ramsey, Jordan Nwora, Nico Mannion, Isaiah Joe and Justinian Jessup 
+
 ## Next Steps
 * Include draft combine measurements in data
 * Create model to predict how basketball players from foreign leagues will perform in the NBA
